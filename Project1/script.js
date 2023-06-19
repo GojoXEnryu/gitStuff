@@ -5,11 +5,11 @@ function H(){
     number = document.getElementById('number').value;
     if(isNaN(number) || number < 1 || number > 100)
     {
-        result = 'НЕВЕРНО';
+        result = 'НЕВЕРНО';d
     }
     else
     { 
-        result = 'ВЕРНО';
+        result = 'ВЕРНО';f
     }
     document.getElementById('firstbutton').textContent = result;
 }            
